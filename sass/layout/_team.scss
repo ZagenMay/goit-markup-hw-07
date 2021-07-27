@@ -1,7 +1,7 @@
 .team {
   background-color: var(--background-color-team);
 }
-.team_title {
+.team__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -9,7 +9,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team_subtitle {
+.team__subtitle {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -17,7 +17,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team_description {
+.team__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -26,17 +26,17 @@
   color: var(--descriprion-font-color);
 }
 
-.team_list {
+.team__list {
   display: flex;
   padding-left: 0;
   margin-left: -30px;
   margin-top: -30px;
 }
-.team_box {
+.team__box {
   padding: 30px 32px;
 }
 
-.team_items {
+.team__items {
   margin-left: 30px;
   margin-top: 30px;
   width: 270px;

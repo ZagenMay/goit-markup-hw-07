@@ -2,11 +2,11 @@
   padding-bottom: 47px;
 }
 
-.features_list {
+.features__list {
   display: flex;
   padding-left: 0;
 }
-.features_title {
+.features__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -14,7 +14,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.features_description {
+.features__description {
   width: 270px;
   font-weight: 400;
   font-size: 14px;
@@ -22,16 +22,16 @@
   letter-spacing: 0.03em;
   color: var(--descriprion-font-color);
 }
-.features_items:not(:last-child) {
+.features__items:not(:last-child) {
   margin-right: 30px;
 }
-.features_icons {
+.features__icons {
   margin-bottom: 30px;
   padding: 25px 100px;
   background-color: var(--background-color-team);
   border-radius: 4px;
 }
-.features_box {
+.features__box {
   display: flex;
   justify-content: center;
   align-items: center;

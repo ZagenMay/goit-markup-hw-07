@@ -31,7 +31,7 @@
   border-radius: 4px;
   transition: var(--main-duration) var(--timing-function);
 }
-.backdrop_button--close {
+.backdrop__button--close {
   position: absolute;
   display: flex;
   top: 8px;
@@ -52,7 +52,7 @@
   }
 }
 
-.modal_description {
+.modal__description {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;

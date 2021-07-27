@@ -1,7 +1,7 @@
 .activity {
   padding-top: 47px;
 }
-.activity_title {
+.activity__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -9,20 +9,20 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-.activity_list {
+.activity__list {
   padding-left: 0;
   align-items: center;
   display: flex;
   justify-content: space-between;
 }
-.activity_imgs {
+.activity__imgs {
   display: block;
   width: 100%;
 }
-.activity_wrapper {
+.activity__wrapper {
   position: relative;
 }
-.activity_description {
+.activity__description {
   display: block;
   position: absolute;
   width: 100%;
