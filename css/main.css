@@ -384,6 +384,16 @@ ol {
   transition: transform var(--main-duration) var(--timing-function), opacity var(--main-duration) var(--timing-function);
 }
 
+.menu .menu_link:hover::after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
+.menu .menu_link:focus::after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
 .menu_item:not(:last-child) {
   margin-right: 50px;
 }
@@ -406,6 +416,11 @@ ol {
 
 .menu_link:hover, .menu_link:focus {
   color: var(--accent-color);
+}
+
+.menu_link.current::after {
+  transform: scaleX(1);
+  opacity: 1;
 }
 
 .header-contacts_link {
@@ -436,21 +451,6 @@ ol {
 .header-contacts_link:hover .header-contacts_icon,
 .header-contacts_link:focus .header-contacts_icon {
   fill: var(--accent-color);
-}
-
-.menu .menu_link:hover::after {
-  transform: scaleX(1);
-  opacity: 1;
-}
-
-.menu .menu_link:focus::after {
-  transform: scaleX(1);
-  opacity: 1;
-}
-
-.menu_link.current::after {
-  transform: scaleX(1);
-  opacity: 1;
 }
 
 .hero {

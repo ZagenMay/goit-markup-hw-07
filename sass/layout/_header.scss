@@ -72,6 +72,10 @@
   &:focus {
     color: var(--accent-color);
   }
+  &.current::after {
+    transform: scaleX(1);
+    opacity: 1;
+  }
 }
 
 .header-contacts_link {
@@ -92,11 +96,6 @@
 
 .current {
   color: var(--accent-color);
-
-  .menu_link.&::after {
-    transform: scaleX(1);
-    opacity: 1;
-  }
 }
 
 .header-contacts_icon {
