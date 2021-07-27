@@ -1,0 +1,29 @@
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.social_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--social-links-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color var(--main-duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--secondary-font-color);
+  }
+}
+.social_icons {
+  transition: fill var(--main-duration) var(--timing-function);
+
+  .social_link:hover &,
+  .social_link:hover & {
+    fill: var(--secondary-font-color);
+  }
+}

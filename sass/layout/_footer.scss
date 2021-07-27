@@ -1,0 +1,127 @@
+.footer {
+  background-color: var(--second-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer_logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: var(--secondary-font-color);
+}
+
+.footer_box-flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer_address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+  transition: color var(--main-duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.footer_links {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footter-cont-list);
+  transition: color var(--main-duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.footer_list {
+  padding-left: 0;
+}
+.footer_items:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer_left-box {
+  margin-right: 70px;
+}
+.footer_title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-font-color);
+  margin-bottom: 20px;
+}
+.footer_icon {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--secondary-font-color);
+}
+.footer_right-box {
+  width: 206px;
+  height: 80px;
+}
+
+.subscibe {
+  margin-left: auto;
+}
+.subscribe_title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-font-color);
+  margin-bottom: 20px;
+}
+.subscribe_box {
+  position: relative;
+}
+.label-placeholder {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: text;
+}
+
+.subscribe_form {
+  display: flex;
+}
+.subscribe_input {
+  height: 50px;
+  width: 360px;
+  padding-left: 16px;
+  background-color: var(--second-background-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--secondary-font-color);
+
+  &:focus + .label-placeholder,
+  &:not(:placeholder-shown) + .label-placeholder {
+    opacity: 0;
+  }
+}
+
+.subscribe_icon {
+  margin-left: 10px;
+  fill: var(--secondary-font-color);
+}
+.footer-btn {
+  display: flex;
+  margin-left: 12px;
+  padding: 10px 29px;
+  border: 0;
+}
