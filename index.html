@@ -56,7 +56,7 @@
               info@devstudio.com
             </a>
           </li>
-          <li>
+          <li class="header-contacts_items">
             <a class="header-contacts_link link" href="tel:+380961111111">
               <svg class="header-contacts_icon" width="10" height="16">
                 <use href="./img/sprite.svg#icon-tel-icon"></use>
@@ -80,7 +80,7 @@
       <!-- Features -->
       <section class="features section">
         <div class="container">
-          <h2 class="features_hidden-title hidden">Особенности</h2>
+          <h2 class="features_title--hidden hidden">Особенности</h2>
           <ul class="features_list list">
             <li class="features_items">
               <div class="features_box">
@@ -410,8 +410,8 @@
     </main>
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="container footer_box-flex">
-        <div class="footer_left-box">
+      <div class="container footer_wrap">
+        <div class="footer_box--left">
           <a class="logo footer_logo link" lang="en" href="./index.html">
             <span class="logo_text">Web</span>Studio
           </a>
@@ -435,32 +435,32 @@
             </ul>
           </address>
         </div>
-        <div class="footer_right-box">
+        <div class="footer_box--right">
           <h3 class="footer_title">присоединяйтесь</h3>
           <ul class="social">
             <li class="social_item list">
-              <a href="" class="social_link footer_icon link">
+              <a href="" class="social_link footer--icon link">
                 <svg class="social_icons" width="20" height="20">
                   <use href="./img/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social_item list">
-              <a href="" class="social_link footer_icon link">
+              <a href="" class="social_link footer--icon link">
                 <svg class="social_icons" width="20" height="20">
                   <use href="./img/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social_item list">
-              <a href="" class="social_link footer_icon link">
+              <a href="" class="social_link footer--icon link">
                 <svg class="social_icons" width="20" height="20">
                   <use href="./img/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social_item list">
-              <a href="" class="social_link footer_icon link">
+              <a href="" class="social_link footer--icon link">
                 <svg class="social_icons" width="20" height="20">
                   <use href="./img/sprite.svg#icon-linkedin"></use>
                 </svg>
@@ -474,9 +474,9 @@
             <div class="subscribe_form">
               <div class="subscribe_box">
                 <input type="text" id="email" placeholder=" " class="subscribe_input" />
-                <label for="email" class="label-placeholder">E-mail</label>
+                <label for="email" class="placeholder">E-mail</label>
               </div>
-              <button type="submit" class="modal-btn footer-btn">
+              <button type="submit" class="modal-btn footer--btn">
                 Подписаться
                 <svg class="subscribe_icon" width="24px" height="24px">
                   <use href="./img/sprite.svg#icon-send"></use>
@@ -490,7 +490,7 @@
     <!-- BACKDROP -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-button" data-modal-close>
+        <button type="button" class="backdrop_button--close" data-modal-close>
           <svg class="modal_icon" width="11" height="11">
             <use href="./img/sprite.svg#icon-close"></use>
           </svg>
@@ -549,12 +549,12 @@
           </label>
 
           <input class="form_checkbox" type="checkbox" id="accept" name="checkbox" />
-          <label class="form_checkbox-label" for="accept"
-            >Соглашаюсь с рассылкой и принимаю &nbsp;<a href="#" class="form_checkbox-link"
+          <label class="form_checkbox--label" for="accept"
+            >Соглашаюсь с рассылкой и принимаю &nbsp;<a href="#" class="form_checkbox--link"
               >Условия договора</a
             ></label
           >
-          <button class="modal-btn backdrop-btn" type="submit">Отправить</button>
+          <button class="modal-btn backdrop_btn" type="submit">Отправить</button>
         </form>
       </div>
     </div>
