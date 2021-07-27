@@ -41,6 +41,14 @@
     transition: transform var(--main-duration) var(--timing-function),
       opacity var(--main-duration) var(--timing-function);
   }
+  & .menu_link:hover::after {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  & .menu_link:focus::after {
+    transform: scaleX(1);
+    opacity: 1;
+  }
 }
 .menu_item:not(:last-child) {
   margin-right: 50px;
@@ -84,6 +92,11 @@
 
 .current {
   color: var(--accent-color);
+
+  .menu_link.&::after {
+    transform: scaleX(1);
+    opacity: 1;
+  }
 }
 
 .header-contacts_icon {
@@ -95,17 +108,4 @@
   .header-contacts_link:focus & {
     fill: var(--accent-color);
   }
-}
-
-.menu .menu_link:hover::after {
-  transform: scaleX(1);
-  opacity: 1;
-}
-.menu .menu_link:focus::after {
-  transform: scaleX(1);
-  opacity: 1;
-}
-.menu_link.current::after {
-  transform: scaleX(1);
-  opacity: 1;
 }
